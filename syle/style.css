@@ -1,0 +1,307 @@
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+}
+/* ----------global class ------*/
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+:root{
+    /*--theme color--*/
+   
+    
+    /*--theme color--*/
+
+    /*--gradient--*/
+
+    
+    /*--gradient--*/
+}
+
+/* ---------- end of global class ------*/
+/*--------navbar--------*/
+.nav{
+    background: #8d99ae;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+
+.nav .nav-menu .nav-brand .a .class-logo{
+    width: 50px;
+    height: auto;
+    padding: 1rem  0;
+    display: block;
+}
+
+.nav .navitems{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+.nav .navitems .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: lato;
+
+}
+
+.nav .navitems .nav-link:hover{
+    background:rgb(37, 41, 41);
+}
+.nav .navitems .nav-link a{
+    color: white;
+}
+
+
+
+
+/*--------end of navbar--------*/
+
+/*-----------main content---------*/
+  /*-------site title------*/
+   main .site-tittle{
+       background-image: url('../images/full\ hd\ 1.webp');
+       background-size:cover;
+       height:100vh;
+       display: flex;
+       justify-content: center;
+       font-size: 30px;
+       color:black;
+   }
+
+   main .site-tittle .site-background{
+       padding-top: 3rem;
+       text-align: center;
+    
+    
+       
+   }
+  /*-------site title------*/
+/*-----------main content---------*/
+/*----------caroseul----------------*/
+.container-carousel{
+    max-width: 300px;
+}
+
+/*----------caroseul----------------*/
+/*----------acknowledgement---------*/
+.container-acknowledgement{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #8d99ae;
+    font-size: 20px;
+
+}
+/*----------acknowledgement---------*/
+/*----------video----------------*/
+.video{
+    background-color:blanchedalmond;
+    padding-left: 500px;
+    
+
+}
+.container-video{
+    max-width: 500px;
+   
+}
+/*----------video end----------------*/
+
+/*----------abstract---------*/
+
+/*----------abstract end---------*/
+.container-abstract{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:beige;
+    font-size: 20px;
+
+}
+
+/*------------footer----------------*/
+.container{
+    max-width: 1170px;
+    background-color:rgb(2, 3, 3)
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color:rgb(2, 6, 8);
+    padding: 25px 5px;
+    padding-left: 250px;
+}
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+    text-decoration: none;
+}
+.footer-col h4{
+    font-size: 18px;
+    color:white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer  .item-1 {
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer .footer-col .item-1 a{
+    color: rgb(226, 218, 218);
+    
+}
+.footer .footer-col .social-links a{
+    color: #fff;
+}
+
+
+/*------------footer----------------*/
+
+/*------------introduction page----------------*/
+.container-introduction{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:azure;
+    font-size: 20px;
+
+}
+
+/*------------introduction page----------------*/
+
+/*-----------literature review page-------------*/
+.container-literature{
+    background-color:beige;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.container-literature a{
+    text-decoration: none;
+    color: rgb(227, 62, 62);
+    border-radius: 0.5rem;
+    border: solid black;
+}
+    
+     
+ 
+/*-----------literature review page-------------*/
+/*-------------design page-------------------*/
+/*.container-design{
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+.container-design h1{
+    text-align: center;
+}
+
+.container-design h2{
+    text-align: center;
+}
+*/
+.literature-container{
+    width: 800px;
+    margin: 50px auto;
+    display: table;
+    box-sizing: border-box;
+}
+.column{
+    background: #8d99ae;
+    display: table-column;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    
+    border-right:20px solid #fff ;
+    border-left: 30px solid #fff;
+    border-top: 20px solid #fff;
+    
+}
+.column h3{
+    color: black;
+    font-size: large;
+
+}
+.column a{
+    text-decoration: none;
+    color: rgb(75, 196, 232);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*-------------design page-------------------*/
+/*-------------analysis page-----------------*/
+.container-anlysis{
+    background-color: beige;
+    font-size: 20px;
+}
+.container-anlysis h1{
+    text-align: center;
+}
+
+.container-anlysis h3{
+    text-align: center;
+}
+.container-anlysis img {
+    margin-left: 20%;
+}
+/*-------------analysis page-----------------*/
+/*-------------fabrication and outcome page-----*/
+.container-fabrication{
+    background-color:bisque;
+    font-size: 20px;
+}
+.container-fabrication h2{
+    text-align: center;
+}
+
+.container-fabrication h3{
+    text-align: center;
+}
+.container-fabrication img {
+    margin-left: 20%;
+}
+.container-fabrication pre{
+    font-family:'Times New Roman', Times, serif;
+}
+.container-fabrication table{
+    text-align: center;
+    margin-left: 40%;
+    border: solid black;
+}
+
+/*-------------fabrication and outcome page-----*/
+/*-------------prference page-------------------*/
+.container-preferance{
+    background-color:aquamarine;
+    font-size: 20px;
+
+}
+.container-preferance a{
+    color:rgb(229, 85, 69);
+    
+}
+/*-------------prference page-------------------*/
